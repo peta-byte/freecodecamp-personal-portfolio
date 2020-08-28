@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Personal Portfolio</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'><link rel="stylesheet" href="./style.css">
+  <style>
+    .w3-theme-d2 {color:#fff !important; background-color:#974989 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#5f2e56 !important}
+.w3-theme {color:#fff !important; background-color:#b565a7 !important}
+.w3-text-theme {color:#b565a7 !important}
+.w3-theme-l5 {color:#000 !important; background-color:#fbf6fa !important}
+.w3-theme-l4 {color:#000 !important; background-color:#f0e0ed !important}
+.w3-theme-l3 {color:#000 !important; background-color:#e1c1db !important}
+.w3-theme-l1 {color:#fff !important; background-color:#c383b8 !important}
+#welcome-section {
+  max-height: 100vh;
+  height: 100vh;
+}
+@media screen and (min-width: 1000px) {
+  #responsive {
+    text-align: right;
+  }
+}
+.project-tile {
+  box-shadow: 10px 10px 5px grey;
+}
+#projects a:hover {
+  text-decoration: none;
+}
+#contact a {
+  margin: 5px;
+}
+#contact a:hover {
+  color: white;
+  text-decoration: underline;
+}
+  </style>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+    <title>Personal Portfolio</title>
+  </head>
+  <body class="bg-dark">
+    <header>
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-light w3-theme fixed-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsable-menu" aria-controls="collapsable-menu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="collapsable-menu">
+    <div class="navbar-nav justify-content-end">
+      <a class="nav-item nav-link active text-white" href="#welcome-section">About</a>
+      <a class="nav-item nav-link text-white" href="#projects">Works</a>
+      <a class="nav-item nav-link text-white" href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+    </header>
+    <main>
+      <div id="welcome-section" class="container text-center mt-2 pt-5 pb-2 bg-dark w3-text-white">
+        <div class="mt-5" style="height: 5vh"></div>
+        <p class="mt-5" style="font-size: 18vh">Hey, I'm Brenda.C</p>
+        <h1 class="w3-text-theme mb-0" style="font-size: 11vh">a web developer</h1>
+      </div>
+      <div id="projects" class="border text-center mt-2 pb-5 pt-5 p-2 w3-theme-l5">
+        <p class="mt-3 mb-4" style="font-size: 8vh"><u>These are some of my projects</u></p>
+        <div id="cards" class="row p-5">
+          <div class="col-md card m-2 p-2 project-tile">
+           <a href="https://google.com" target="_blank"> <img src="image-holder-icon.png" class="card-img-top" alt="...">
+  <div class="card-body">
+   <div class="card-footer w3-theme-d5">
+    JavaScript
+  </div>
+      </div>
+            </a>
+          </div>
+          <div class="col-md card m-2 p-2 project-tile">
+           <a href="https://google.com" target="_blank"> <img src="image-holder-icon.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <div class="card-footer w3-theme-d5">
+    Containerization
+  </div>
+  </div>
+            </a>
+          </div>
+          <div class="col-md card m-2 p-2 project-tile">
+       <a href="https://google.com" target="_blank">
+            <img src="image-holder-icon.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <div class="card-footer w3-theme-d5">
+    Blockchain
+  </div>
+  </div>
+            </a>
+          </div>
+        </div>
+        <div class="row p-5">
+          <div class="col-md card m-2 p-2 project-tile">
+            <a href="https://google.com" target="_blank">
+  <div class="card-body">
+    <h5 class="card-title">Coming soon</h5>
+   <div class="card-footer w3-theme-d5">
+    JS Documentation
+  </div>
+  </div>
+            </a>
+          </div>
+          <div class="col-md card m-2 p-2 project-tile">
+            <a href="https://google.com" target="_blank">
+  <div class="card-body">
+    <h5 class="card-title">Coming soon</h5>
+    <div class="card-footer w3-theme-d5">
+    Tribute Page
+  </div>
+  </div>
+            </a>
+          </div>
+          <div class="col-md card m-2 p-2 project-tile">
+            <a href="https://google.com" target="_blank">
+  <div class="card-body">
+    <h5 class="card-title">Coming soon</h5>
+    <div class="card-footer w3-theme-d5">
+    Survey Form
+  </div>
+  </div>
+            </a>
+          </div>
+        </div>
+        <button class="btn bg-dark text-white p-2 m-3 shadow">Show all &gt;</button>
+       </div>
+      <div id="contact" class="text-center mt-0 mb-0 p-2 pt-5 pb-5 bg-dark text-white" style="height: 100vh">
+         <div class="mt-2" style="height: 5vh"></div>
+        <p class="mt-5 mb-2" style="font-size: 9vh">Let's work together...</p>
+        <p class="w3-text-theme mb-3" style="font-size: 6vh">How do you like your coffee?☕</p>
+        <ul class="list-inline mt-5 mb-0" style="font-size: 5vh">
+          <a href="#" class="list-inline-item">Facebook</a>
+  <a href="https://github.com/ChepkorirBrenda" target="_blank" id="profile-link" class="list-inline-item">Github</a>
+  <a href="#" class="list-inline-item">Twitter</a>
+           <a href="#" class="list-inline-item">Send a mail</a>
+           <a href="#" class="list-inline-item">Call me</a>
+        </ul>
+      </div>
+    </main>
+    
+    <footer class="p-2 pt-3 pb-2 w3-theme mt-0" style="max-font-size: 3vh">
+      <div class="row">
+      <div class="col-lg m-2">
+      <p>**This is just a fake portfolio. Some of the projects and contact details given are not real.
+</p>
+      </div>
+      <div id="responsive" class="col-lg m-2">
+      <p>2019 © Brenda Chepkorir. Created for freeCodeCamp </p>
+      </div>
+        <div>
+    </footer>
+  </body>
+</html>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+</body>
+</html>
